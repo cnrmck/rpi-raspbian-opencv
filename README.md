@@ -10,7 +10,7 @@ Building this image requires different install instructions to get OpenCV than t
 
 ## How to Install / Use ##
 Please see my [docker hub repo](https://hub.docker.com/r/cnrmck/rpi-raspbian-opencv/) for instructions on installing and using this image. This repo will loosely track stable releases of Raspbian as they become available.
-Most recent build is [![](https://images.microbadger.com/badges/version/cnrm/rpi-raspbian-opencv2.4.13)](https://microbadger.com/images/cnrm/rpi-raspbian-opencv2.4.13 "Get your own version badge on microbadger.com") of size [![](https://images.microbadger.com/badges/image/cnrm/rpi-raspbian-opencv2.4.13)](https://microbadger.com/images/cnrm/rpi-raspbian-opencv2.4.13 "Get your own version badge on microbadger.com").
+Most recent build is [![](https://images.microbadger.com/badges/version/cnrm/rpi-raspbian-opencv2.4.13:stretch.svg)](https://microbadger.com/images/cnrm/rpi-raspbian-opencv2.4.13:stretch "Get your own version badge on microbadger.com") of size [![](https://images.microbadger.com/badges/version/cnrm/rpi-raspbian-opencv2.4.13:stretch.svg)](https://microbadger.com/images/cnrm/rpi-raspbian-opencv2.4.13:stretch "Get your own version badge on microbadger.com").
 
 
 ## Building ##
