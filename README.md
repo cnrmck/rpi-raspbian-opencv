@@ -1,18 +1,16 @@
 # rpi-raspbian-opencv - Docker image of OpenCV for Raspberry Pi. #
 This is a docker image of OpenCV compiled for the Raspberry Pi.  It includes python bindings for both Python2 and Python3.  
-This uses [resin.io Raspberry Pi base images](https://docs.resin.io/reference/base-images/resin-base-images/) and compiles OpenCV 2.4.13 or less for python2 and python3.  
+This uses [resin.io Raspberry Pi base images](https://docs.resin.io/reference/base-images/resin-base-images/) and compiles OpenCV 2.4.13 (or less if specified) for python2 and python3.  
 Installation is based upon instructions at http://www.pyimagesearch.com.
 
-This is a fork of sptwilko's excellent repo, please check out his work if you need a more recent version of OpenCV:  
+This is a fork of sgtwilko's excellent repo, please check out his work if you need a more recent version of OpenCV:  
 [github repo](https://github.com/sgtwilko/rpi-raspbian-opencv)
 [docker hub](https://hub.docker.com/r/sgtwilko/rpi-raspbian-opencv/)
 Building this image requires different install instructions to get OpenCV than the original, thus the fork.
 
-[![Docker Stars](https://img.shields.io/docker/stars/cnrmck/rpi-raspbian-opencv2.4.13.svg)]() [![Docker Stars](https://img.shields.io/docker/pulls/cnrmck/rpi-raspbian-opencv2.4.13.svg)]()
-
 ## How to Install / Use ##
-Please see my [docker hub repo](https://hub.docker.com/r/cnrmck/rpi-raspbian-opencv/) for instructions on installing and using this image. This repo will loosely track stable releases of Raspbian as they become available
-Most recent build is [![](https://images.microbadger.com/badges/version/sgtwilko/rpi-raspbian-opencv.svg)](https://microbadger.com/images/cnrmck/rpi-raspbian-opencv2.4.13 "Get your own version badge on microbadger.com") which is [![](https://images.microbadger.com/badges/image/sgtwilko/rpi-raspbian-opencv.svg)](https://microbadger.com/images/cnrmck/rpi-raspbian-opencv2.4.13 "Get your own image badge on microbadger.com").
+Please see my [docker hub repo](https://hub.docker.com/r/cnrmck/rpi-raspbian-opencv/) for instructions on installing and using this image. This repo will loosely track stable releases of Raspbian as they become available.
+Most recent build is [![](https://images.microbadger.com/badges/version/cnrm/rpi-raspbian-opencv2.4.13)](https://microbadger.com/images/cnrm/rpi-raspbian-opencv2.4.13 "Get your own version badge on microbadger.com") of size [![](https://images.microbadger.com/badges/image/cnrm/rpi-raspbian-opencv2.4.13)](https://microbadger.com/images/cnrm/rpi-raspbian-opencv2.4.13 "Get your own version badge on microbadger.com").
 
 
 ## Building ##
